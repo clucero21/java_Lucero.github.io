@@ -1,0 +1,93 @@
+/* Styles for the Body */
+body {
+		background-color: #FCEBB6; /* Set background color */
+		background-image: url(fadedroad50.jpg); /* Set background image */
+		background-repeat: no-repeat; /* Prevent background image from repeating */
+		background-size: cover; /* Cover the entire element with the background image*/
+		background-attachment: fixed; /*Fix the background position */
+		color: #221811; /* Set text color */
+		font-family: Tahoma, Arial, sans-serif; /* Define font family */
+}
+
+/* Styles for the wrapper */
+#wrapper {
+		background-color: #FEFAEB; /* Set background color */
+		margin-left: auto;  /* Center the element horizontally */
+		margin-right: auto; /* Center the element horizontally */
+		width: 80%; /* Set width to 80% of the parent container */
+		min-width: 900px; /* Set minimum width */
+		max-width: 1280 px; /* Set maximum width */
+		box-shadow: 3px 3px 3px #676767; /* Add box shadow */
+		}
+
+/* Styles for the header */
+header {
+		background-color: #D2B48C; /* Set background color */
+		color: #8C3826; /* Set text color */
+		text-align: center; /* Align text to the center */
+		padding-top: 5px; /* Add top padding */
+		padding-bottom: 5px; /* Add bottom padding */
+}
+
+/* Styles for Headings */
+h1 {
+	font-size: 3cm; /* Set font size for h1 */
+}
+
+h2 {
+	color: #8C3826; /* Set text color for h2 */
+}
+h3, dt {
+	color: #8C3826; /* Set text color for h3 and dt */
+}
+h4 {
+	background-color: #D2B48C; /* Set background color for h4 */ 
+	font-size: 1.2cm; /* Set font size for h4 */
+	padding-left: .5cm; /* Add left padding */
+	padding-bottom: .25cm; /* Add bottom padding */
+}
+	
+/* Styles for Navigation */ 
+nav {
+	font-weight: bold; /* Set font weight */
+	text-align: center; /* Align text to the center */
+	font-size: 1.5cm; /* Set font size */
+	padding-top: 5px; /* Add top padding */
+	padding-bottom: 5px; /* Add bottom padding */
+}
+nav a {
+	text-decoration: none; /* remove underline from links */
+}
+/* Styles for Main Content */
+main {
+	display: block; /* Display as block element */
+	padding-left: 2cm; /* Add left padding */
+	padding-right: 2cm; /* Add right padding */
+	padding-bottom: 2cm; /* Add bottom padding */
+}
+/* Styles for details */ 
+.details {
+	padding-left: 20%; /* Add left padding */ 
+	padding-right: 20%; /* Add right padding */
+}
+/* Styles for images */
+img {
+	padding-left: 10px; /* Add left padding */
+	padding-right: 10px; /* Add right padding */
+}
+/* Styles for Home Hero */
+#homehero {
+	height: 300px; /* Set height */
+	background-image: url(hero.jpg); /* Set background image */
+	background-repeat: no-repeat; /* Prevent background image from repeating */
+	background-size: cover; /* Cover the entire element with the background image */
+}
+/* Styles for the footer */
+footer {
+	background-color: #D2B48C; /* Set background color */
+	font-size: .60em; /* Set font size */
+	font-style: italic; /* Set font style to italic */
+	text-align: center; /* Align text to the center */
+	padding-bottom: 1cm; /* Add bottom padding */
+	border-top: 2px solid #8C3826; /* Add top border */
+}
